@@ -1,0 +1,73 @@
+.body{
+	background-color: #090909;
+	margin: 0px 0px 0px 0px;
+}
+.block{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.button{
+	background-color: #090909;
+	color: white;
+	font-size: 1em;
+	height: 1.8em;
+	text-align: center;
+	transition: all 0.3s ease;
+	width: 6em;
+}
+.cancel{
+	border-color: #d51010;
+}
+.cancel:hover{
+	background-color: #d51010;
+}
+.errorTitle{
+	color: #d51010;
+	font-size: 1em;
+	font-weight: bold;
+	margin-left: 5%;
+	margin-top: 0.5em;
+}
+.font{
+	font-family: Arial, Helvetica, Sans-serif;
+}
+.footer{
+	bottom: 5%;
+    position: fixed;
+    right: 5%;
+    text-align: right;
+}
+.textField{
+	background-color: #090909;
+	border-color: #00ff0c;
+	color: white;
+	font-size: 1em;
+	height: 1.8em;
+	margin-top: 0.5em;
+	padding-left: 1em;
+	padding-right: 1em;
+	transition: all 0.3s ease;
+	width: 90%;
+}
+.textField:focus{
+	border-width: 4px;
+}
+.title{
+	color: white;
+	font-size: 3em;
+	font-weight: bold;
+	margin-left: 5%;
+	margin-top: 0.5em;
+}
+.roundBorder{
+	border-radius: 50px;
+	border-style: solid;
+	border-width: 2px;
+}
+.submit{
+	border-color: #0da7ea;
+}
+.submit:hover{
+	background-color: #0da7ea;
+}

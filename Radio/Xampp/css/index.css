@@ -1,0 +1,91 @@
+.body{
+	background-color: #090909;
+	margin: 0px 0px 0px 0px;
+}
+.button{
+	background-color: rgb(6, 64, 102);
+	color: white;
+	font-size: 1em;
+	height: 1.8em;
+	text-align: center;
+	transition: all 0.3s ease;
+	width: 6em;
+}
+.buttonFooter{
+	position: absolute;
+	bottom: 0.5em;
+	right: 0.5em;
+}
+.font{
+	font-family: Arial, Helvetica, Sans-serif;
+}
+.menu{
+	background-color: black;
+	height: auto;
+}
+.menuItem{
+	background-color: black;
+	border-style: none;
+	color: white;
+	font-size: 1em;
+	height: 2.5em;
+	text-align: center;
+	transition: all 0.3s ease;
+	width: 8em;
+}
+.menuItemOption:hover{
+	background-color: #0da7ea;
+}
+.title{
+	color: white;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.quiz{
+	background: rgb(6, 64, 102);
+	float: right;
+	height: 20em;
+	margin: 20px 20px 20px 20px;
+	position: relative;
+	width: 16em;
+}
+.quizTitle{
+	color: white;
+	font-size: 1.2em;
+}
+.quizTitleBlock{
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	margin-top: 0.5em;
+}
+.ok{
+	border-color: #0da7ea;
+}
+.ok:hover{
+	background-color: #0da7ea;
+}
+.roundBorder{
+	border-radius: 25px;
+	border-style: solid;
+	border-width: 2px;
+}
+.scorePane{
+	align-items: center;
+	display: flex;
+}
+.songTitle{
+	color: whitesmoke;
+	display: block;
+}
+.songsPane{
+	margin-left: 1em;
+	margin-top: 1em;
+	margin-right: 1em;
+}
+.star{
+	margin-left: 0.5em;
+	max-height: 1.2em;
+	max-width: 1.2em;
+}

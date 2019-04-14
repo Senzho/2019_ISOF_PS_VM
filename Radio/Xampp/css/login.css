@@ -1,0 +1,81 @@
+.block{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.body{
+	background-color: #090909;
+	margin: 0px 0px 0px 0px;
+}
+.center{
+	text-align: center;
+}
+.errorTitle{
+	color: #d51010;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 0.5em;
+}
+.font{
+	font-family: Arial, Helvetica, Sans-serif;
+}
+.main{
+	background-color: black;
+	height: 100%;
+	left: 20%;
+	position: absolute;
+	right: 20%;
+}
+.textField{
+	background-color: black;
+	border-color: #00ff0c;
+	color: white;
+	font-size: 1.2em;
+	height: 2.2em;
+	margin-top: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	text-align: center;
+	transition: all 0.3s ease;
+	width: 15em;
+}
+.textField:focus{
+	border-width: 4px;
+}
+.title{
+	color: white;
+	font-size: 4em;
+	font-weight: bold;
+	margin-top: 1.5em;
+}
+.roundBorder{
+	border-radius: 50px;
+	border-style: solid;
+	border-width: 2px;
+}
+.signInButton{
+	background-color: black;
+	border-width: 0px;
+	color: white;
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+	transition: all 0.3s ease;
+}
+.signInButton:hover{
+	background-color: #d51010;
+}
+.submit{
+	background-color: black;
+	border-color: #0da7ea;
+	color: white;
+	font-size: 1.2em;
+	height: 2.2em;
+	margin-top: 1em;
+	text-align: center;
+	transition: all 0.3s ease;
+	width: 8em;
+}
+.submit:hover{
+	background-color: #0da7ea;
+}

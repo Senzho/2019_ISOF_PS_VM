@@ -1,0 +1,64 @@
+.body{
+	background-color: #090909;
+	margin: 0px 0px 0px 0px;
+}
+.font{
+	font-family: Arial, Helvetica, Sans-serif;
+}
+.menu{
+	background-color: black;
+	height: auto;
+	width: 100%;
+}
+.menuItem{
+	background-color: black;
+	border-style: none;
+	color: white;
+	font-size: 1em;
+	height: 2.5em;
+	text-align: center;
+	transition: all 0.3s ease;
+	width: 8em;
+}
+.menuItemOption:hover{
+	background-color: #0da7ea;
+}
+.menuItemLogOut:hover{
+	background-color: #d51010;
+}
+.title{
+	color: rgb(255, 255, 255);
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.song{
+	align-items: center;
+	background-color: rgb(27, 27, 27);
+	border-radius: 25px;
+	display: flex;
+	justify-content: space-between;
+	height: 1.5em;
+	margin-bottom: 0.4em;
+	margin-left: 2em;
+	margin-right: 2em;
+	margin-top: 0.4em;
+	padding: 5px 5px 5px 5px;
+	transition: all 0.3s ease;
+}
+.song:hover{
+	background-color: rgb(32, 32, 32);
+	margin-left: 1em;
+	margin-right: 1em;
+}
+.songData{
+	color: whitesmoke;
+}
+.songInfo{
+	width: auto;
+}
+.songTitle{
+	color: rgb(255, 255, 255);
+	font-size: 1em;
+}
