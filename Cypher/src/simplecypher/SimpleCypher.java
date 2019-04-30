@@ -8,9 +8,9 @@ public class SimpleCypher {
         int base = 5;
         Cypher cypher = new Cypher(text, base);
         System.out.println("Texto ingresado: " + cypher.getText() + ", base: " + cypher.getBase());
-        String code = cypher.crypt();
+        String code = cypher.code();
         System.out.println("Codificado: " + code);
         cypher.setText(code);
-        System.out.println("Decodificado: " + cypher.decrypt());
+        System.out.println("Decodificado: " + cypher.decode());
     }
 }

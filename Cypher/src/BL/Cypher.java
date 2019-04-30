@@ -17,9 +17,7 @@ public class Cypher {
         return position;
     }
     
-    public Cypher(){
-        
-    }
+    public Cypher(){}
     public Cypher(String text, int base){
         this.text = text;
         this.base = base;
@@ -38,13 +36,14 @@ public class Cypher {
         return this.base;
     }
     
-    public String crypt(){
+    public String code(){
         String code = "";
         for (char character : this.text.toCharArray()){
-            if (this.getCharacterPosition(character) == -1){
+            int position = this.getCharacterPosition(character);
+            if (position == -1){
                 code = code.concat(String.valueOf(character));
             }else{
-                int position = this.getCharacterPosition(character) + this.base;
+                position = position + this.base;
                 while (position >= this.circle.length){
                     position = position - this.circle.length;
                 }
@@ -53,19 +52,20 @@ public class Cypher {
         }
         return code;
     }
-    public String decrypt(){
-        String code = "";
+    public String decode(){
+        String result = "";
         for (char character : this.text.toCharArray()){
-            if (this.getCharacterPosition(character) == -1){
-                code = code.concat(String.valueOf(character));
+            int position = this.getCharacterPosition(character);
+            if (position == -1){
+                result = result.concat(String.valueOf(character));
             }else{
-                int position = this.getCharacterPosition(character) - this.base;
+                position = position - this.base;
                 while (position < 0){
                     position = position + this.circle.length;
                 }
-                code = code.concat(String.valueOf(this.circle[position]));
+                result = result.concat(String.valueOf(this.circle[position]));
             }   
         }
-        return code;
+        return result;
     }
 }
